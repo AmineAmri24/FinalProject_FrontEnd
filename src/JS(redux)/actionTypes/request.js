@@ -1,0 +1,4 @@
+export const GET_REQUESTS = "GET_REQUESTS";
+export const LOAD_REQUESTS = "LOAD_REQUESTS";
+export const FAIL_REQUESTS = "FAIL_REQUESTS";
+export const GET_REQUEST = "GET_REQUEST";
