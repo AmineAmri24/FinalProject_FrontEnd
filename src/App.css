@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&family=Rubik&display=swap');
 .App {
   text-align: center;
+  font-family: 'Rubik', sans-serif;
+  background-color: rgb(189, 204, 217);
+  /* margin-bottom: 5%; */
+
 }
 

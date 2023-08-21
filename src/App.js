@@ -16,7 +16,8 @@ import RequestSubmit from './Components/RequestSubmit';
 import Users from './Pages/Users';
 import EditRequest from './Components/REQUEST LISTS/EditRequest';
 import EditSwitch from './Components/SWITCH LISTS/EditSwitch';
-import { currentAdmin } from './JS(redux)/actions/admin';
+// import { currentAdmin } from './JS(redux)/actions/admin';
+import Footer from './Components/Footer';
 
 
 
@@ -27,6 +28,7 @@ function App() {
   const dispatch = useDispatch()
   useEffect(() => {
     if(localStorage.getItem("token")){
+      // if you want the admin login also and its token kept working , just add && currentAdmin() after current() 
       dispatch(current())
     }
   }, [dispatch]);
@@ -51,6 +53,7 @@ function App() {
   <Route path='/*' element= {<Error/>}/>
   
 </Routes>
+<Footer/>
     </div>
   );
 }

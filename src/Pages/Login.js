@@ -28,6 +28,7 @@ const [admin, setAdmin] = useState({});
 
   const handleUser = (e) => {
     e.preventDefault();
+    // in case you want to add admin login just add after login (user) this syntaxe : && login(admin)
     dispatch(login(user));
     navigate("/profile");
   };

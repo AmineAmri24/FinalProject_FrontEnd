@@ -1,0 +1,38 @@
+.welcoming{
+    padding-top: 10%;
+}
+
+.regestring{
+    padding-top: 5%;
+    /* text-align: start;
+
+   
+
+    margin-right: 80%;
+
+    padding-left: 2%; */
+
+    text-decoration: underline;
+    
+}
+
+.employee{
+    box-shadow: 25px 5px 28px rgba(0, 0, 0, 0.3);
+    border-radius: 3%;
+}
+
+.photoandslogant{
+
+    padding-top: 10%;
+    display: flex;
+    margin-left: 5%;
+}
+
+.writting{
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+.writting h3{
+    padding-top: 5%;
+}
